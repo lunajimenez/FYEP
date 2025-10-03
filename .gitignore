@@ -1,0 +1,23 @@
+cat >> .gitignore <<'EOF'
+# Entorno virtual
+venv/
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+# Jupyter
+.ipynb_checkpoints/
+# IDEs / OS
+.vscode/
+.idea/
+.DS_Store
+# Entornos / variables
+.env
+# Datos grandes
+/data/
+/*.sqlite3
+# notebooks output (opcional)
+*.nbconvert.ipynb
+EOF
